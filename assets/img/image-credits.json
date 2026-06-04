@@ -1,0 +1,62 @@
+[
+  {
+    "id": "feral-cat-tnr",
+    "localPath": "assets/img/feral-cat-tnr.jpg",
+    "fileTitle": "Feral cat, sterilized through a Trap-Neuter-Return program.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Feral_cat,_sterilized_through_a_Trap-Neuter-Return_program.jpg",
+    "originalUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Feral_cat,_sterilized_through_a_Trap-Neuter-Return_program.jpg",
+    "author": "FelineAvenger",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "usedFor": [
+      "hero"
+    ],
+    "alt": "Streunerkatze mit markiertem Ohr nach einer Kastration",
+    "modifications": "Lokale Kopie aus dem Projekt wahre-haustierliebe.de; im Layout per CSS beschnitten."
+  },
+  {
+    "id": "jan-erik-andersen-portrait",
+    "localPath": "assets/img/jan-erik-andersen-portrait.webp",
+    "fileTitle": "Jan-Erik Andersen Portrait",
+    "sourceUrl": "https://jan-erik-andersen.de/portrait.webp",
+    "originalUrl": "https://jan-erik-andersen.de/portrait.webp",
+    "author": "Jan-Erik Andersen",
+    "license": "Eigenes Bild / Nutzung im Andersen-Webworks-Projektkontext",
+    "licenseUrl": "",
+    "usedFor": [
+      "team-jan-erik"
+    ],
+    "alt": "Porträt von Jan-Erik Andersen",
+    "modifications": "Lokale Kopie; im Layout rund beschnitten."
+  },
+  {
+    "id": "annemarie-andersen-portrait",
+    "localPath": "assets/img/annemarie-andersen-portrait.webp",
+    "fileTitle": "Annemarie Andersen Portrait",
+    "sourceUrl": "https://annemarie-andersen.de/portrait-480.webp",
+    "originalUrl": "https://annemarie-andersen.de/portrait-480.webp",
+    "author": "Annemarie Andersen",
+    "license": "Eigenes Bild / Nutzung im Andersen-Webworks-Projektkontext",
+    "licenseUrl": "",
+    "usedFor": [
+      "team-annemarie"
+    ],
+    "alt": "Porträt von Annemarie Andersen",
+    "modifications": "Lokale Kopie; im Layout rund beschnitten."
+  },
+  {
+    "id": "streunerhilfe-plau-screenshot",
+    "localPath": "assets/img/streunerhilfe-plau-screenshot.jpg",
+    "fileTitle": "Screenshot streunerhilfe-plau.de",
+    "sourceUrl": "https://streunerhilfe-plau.de/",
+    "originalUrl": "https://streunerhilfe-plau.de/",
+    "author": "Andersen Webworks / Streunerhilfe Plau e. V.",
+    "license": "Eigener Screenshot der öffentlich erreichbaren Vereinswebsite",
+    "licenseUrl": "",
+    "usedFor": [
+      "case-study-streunerhilfe"
+    ],
+    "alt": "Screenshot der Website der Streunerhilfe Plau e. V.",
+    "modifications": "Lokale Kopie aus dem Streunerhilfe-Projekt; im Layout per CSS beschnitten."
+  }
+]

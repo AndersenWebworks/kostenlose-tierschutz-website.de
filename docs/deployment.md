@@ -8,12 +8,14 @@ Für den Live-Upload werden nur diese Dateien benötigt:
 
 - `index.html`
 - `assets/`
+- `impressum/`
+- `datenschutz/`
 - `robots.txt`
 - `sitemap.xml`
 - `site.webmanifest`
 - `CNAME`
 
-Der Workflow `.github/workflows/deploy-pages.yml` kopiert genau diese Dateien nach `_site/` und veröffentlicht nur diesen statischen Ordner. Repo-Dateien wie `README.md`, `docs/`, `scripts/` oder `package.json` werden dadurch nicht Teil der Live-Seite.
+Der Workflow `.github/workflows/deploy-pages.yml` kopiert genau diese Dateien nach `_site/` und veröffentlicht nur diesen statischen Ordner. Repo-Dateien wie `README.md`, `docs/`, `scripts/`, `server/` oder `package.json` werden dadurch nicht Teil der Live-Seite.
 
 ## GitHub Pages
 
@@ -53,10 +55,16 @@ www  CNAME  AndersenWebworks.github.io
 
 Wenn `kostenlose-tierschutz-website.de` als GitHub-Pages-Custom-Domain gesetzt ist und `www` korrekt auf GitHub Pages zeigt, leitet GitHub Pages `www` automatisch auf die Apex-Domain weiter.
 
+## Formularversand
+
+Das Bewerbungsformular ist als statischer Mailto-Weg umgesetzt, wie auf `jan-erik-andersen.de`: Nach dem Ausfüllen öffnet die Seite einen vorbereiteten E-Mail-Entwurf an `info@andersen-webworks.de`. Die Besucher senden diese E-Mail im eigenen Mailprogramm ab.
+
+Das passt zum GitHub-Pages-Hosting, weil keine SMTP-Zugangsdaten im Browser liegen, kein PHP ausgeführt werden muss und kein zusätzlicher Formularanbieter beteiligt ist.
+
+Der alte PHP/PHPMailer-Endpunkt unter `server/smtp-endpoint/` bleibt nur als spätere Option erhalten. Er ist aktuell nicht mit der Live-Seite verdrahtet.
+
 Vor Livegang prüfen:
 
-- Impressum und Datenschutz ergänzen oder verlinken
-- echte Fotos statt Platzhalter einsetzen
 - finale Kontaktadresse bestätigen
 - Pages-Quelle im GitHub-Repo aktivieren
 - DNS beim Domainanbieter setzen

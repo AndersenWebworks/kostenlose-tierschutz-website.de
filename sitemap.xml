@@ -4,5 +4,12 @@
     <loc>https://kostenlose-tierschutz-website.de/</loc>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://kostenlose-tierschutz-website.de/impressum/</loc>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://kostenlose-tierschutz-website.de/datenschutz/</loc>
+    <priority>0.3</priority>
+  </url>
 </urlset>
-
