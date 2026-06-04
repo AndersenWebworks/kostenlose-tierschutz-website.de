@@ -1,0 +1,9 @@
+{
+  "name": "Kostenlose Website für Tierschutzvereine",
+  "short_name": "Tierschutz Website",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF8F4",
+  "theme_color": "#3B7A57",
+  "lang": "de"
+}

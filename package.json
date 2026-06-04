@@ -1,0 +1,10 @@
+{
+  "name": "kostenlose-tierschutz-website.de",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Statische Projektseite für die Website-Spende von Andersen Webworks an Tierschutzvereine.",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs"
+  }
+}

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kostenlose-tierschutz-website.de/sitemap.xml
+
