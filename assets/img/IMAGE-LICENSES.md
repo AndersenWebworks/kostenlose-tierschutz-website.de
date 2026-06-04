@@ -1,6 +1,6 @@
 # Bildnachweise
 
-Stand: 04.06.2026
+Stand: 05.06.2026
 
 Die maschinenlesbare Nachweistabelle liegt in `image-credits.json`.
 
@@ -11,7 +11,7 @@ Die maschinenlesbare Nachweistabelle liegt in `image-credits.json`.
 | `feral-cat-tnr.jpg` | Hero | FelineAvenger, Wikimedia Commons, CC BY-SA 3.0 |
 | `jan-erik-andersen-portrait.webp` | Teamkarte Jan-Erik | Eigenes Porträt von Jan-Erik Andersen, lokale Projektverwendung |
 | `annemarie-andersen-portrait.webp` | Teamkarte Annemarie | Eigenes Porträt von Annemarie Andersen, lokale Projektverwendung |
-| `streunerhilfe-plau-screenshot.jpg` | Praxisbeispiel Streunerhilfe Plau e. V. | Eigener Screenshot der öffentlich erreichbaren Vereinswebsite `streunerhilfe-plau.de` |
+| `streunerhilfe-plau-screenshot.png` | Praxisbeispiel [Streunerhilfe Plau e. V.](https://streunerhilfe-plau.de/) | Eigener Desktop-Screenshot der öffentlich erreichbaren Vereinswebsite [streunerhilfe-plau.de](https://streunerhilfe-plau.de/), ohne Cookie-Overlay |
 
 ## Pflegevertrag
 

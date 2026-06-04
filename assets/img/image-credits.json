@@ -46,7 +46,7 @@
   },
   {
     "id": "streunerhilfe-plau-screenshot",
-    "localPath": "assets/img/streunerhilfe-plau-screenshot.jpg",
+    "localPath": "assets/img/streunerhilfe-plau-screenshot.png",
     "fileTitle": "Screenshot streunerhilfe-plau.de",
     "sourceUrl": "https://streunerhilfe-plau.de/",
     "originalUrl": "https://streunerhilfe-plau.de/",
@@ -57,6 +57,6 @@
       "case-study-streunerhilfe"
     ],
     "alt": "Screenshot der Website der Streunerhilfe Plau e. V.",
-    "modifications": "Lokale Kopie aus dem Streunerhilfe-Projekt; im Layout per CSS beschnitten."
+    "modifications": "Desktop-Browser-Screenshot der Startseite mit 1440 x 1830 px; Cookie-Overlay vor der Aufnahme ausgeblendet; im Layout per CSS beschnitten."
   }
 ]

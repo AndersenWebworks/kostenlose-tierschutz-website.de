@@ -26,18 +26,25 @@ const setStatus = (message, isError = false) => {
 };
 
 const buildApplicationMailto = data => {
-  const subject = encodeURIComponent('Website-Bewerbung: ' + data.organisation);
+  const subject = encodeURIComponent('Bewerbung um die Website-Spende: ' + data.organisation);
   const body = encodeURIComponent(
     'Hallo Jan-Erik, hallo Annemarie,\n\n' +
-    'wir möchten uns für die kostenlose Tierschutz-Website bewerben.\n\n' +
+    'wir bewerben uns um die kostenlose Tierschutz-Website, weil wir unsere Tierschutzarbeit online besser sichtbar machen möchten.\n\n' +
+    'Kurz zu uns\n' +
+    '-----------\n' +
     'Organisation: ' + data.organisation + '\n' +
     'Ansprechperson: ' + data.kontaktperson + '\n' +
-    'Antwort-E-Mail: ' + data.email + '\n' +
-    'Region: ' + (data.region || '(nicht angegeben)') + '\n' +
-    'Aktuelle Website: ' + (data.website || '(keine)') + '\n' +
-    'Tierschutz-Schwerpunkt: ' + data.schwerpunkt + '\n\n' +
-    'Was wir machen / was uns online fehlt:\n' + data.beschreibung + '\n\n' +
-    'Website-Pflege später durch: ' + (data.pflegeperson || '(nicht angegeben)') + '\n\n' +
+    'E-Mail für eure Rückmeldung: ' + data.email + '\n' +
+    'Region / Ort: ' + (data.region || 'nicht angegeben') + '\n' +
+    'Aktuelle Website: ' + (data.website || 'keine vorhanden') + '\n' +
+    'Schwerpunkt unserer Tierschutzarbeit: ' + data.schwerpunkt + '\n\n' +
+    'Was wir machen und was uns online fehlt\n' +
+    '---------------------------------------\n' +
+    data.beschreibung + '\n\n' +
+    'Pflege der späteren Website\n' +
+    '--------------------------\n' +
+    'Die Website würde später gepflegt durch: ' + (data.pflegeperson || 'noch offen / nicht angegeben') + '\n\n' +
+    'Falls wir für die Website-Spende infrage kommen, freuen wir uns über eure Rückmeldung. Für ein kurzes Kennenlerngespräch sind wir gerne erreichbar.\n\n' +
     'Viele Grüße\n' +
     data.kontaktperson
   );

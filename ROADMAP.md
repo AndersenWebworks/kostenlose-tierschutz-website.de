@@ -23,7 +23,7 @@ Benötigte Motive:
 - Hero: emotionales, aber nicht kitschiges Tierschutzmotiv, idealerweise gerettete Katze oder Pflegestelle.
 - Team: Porträt Jan-Erik aus `jan-erik-andersen.de/portrait.webp`.
 - Team: Porträt Annemarie aus `annemarie-andersen.de/portrait-480.webp` bzw. passender vorhandener Größe.
-- Streunerhilfe-Case-Study: Screenshot der echten Seite `streunerhilfe-plau.de`, passend in die Case-Study-Karte eingebaut.
+- Streunerhilfe-Case-Study: Screenshot der echten Seite [`streunerhilfe-plau.de`](https://streunerhilfe-plau.de/), passend in die Case-Study-Karte eingebaut.
 - Optional: ein zweites freies Motiv für Kastration, Auffangstation oder Tierschutzarbeit, falls die Seite mit nur Hero + Team + Screenshot zu trocken wirkt.
 
 Akzeptanz:
@@ -85,14 +85,14 @@ Akzeptanz:
 - Footer verlinkt beide Seiten.
 - Datenschutz beschreibt nicht versehentlich Technik von Wa(h)re Haustier(liebe), die hier nicht existiert.
 
-## 4. Streunerhilfe-Case-Study mit echtem Screenshot
+## 4. [Streunerhilfe](https://streunerhilfe-plau.de/)-Case-Study mit echtem Screenshot
 
-Aktueller Stand: Die Case Study hat noch einen Foto-Platzhalter. Im lokalen Streunerhilfe-Projekt gibt es `webworks-theme/screenshot.jpg`, außerdem kann ein frischer Screenshot der Live-Seite erstellt werden.
+Aktueller Stand: Die Case Study nutzt einen frischen Screenshot der Live-Seite.
 
 Umsetzung:
 
-- Einen frischen Desktop-Screenshot von `streunerhilfe-plau.de` erstellen oder den vorhandenen Screenshot prüfen.
-- Screenshot als `assets/img/streunerhilfe-plau-screenshot.webp` speichern.
+- Einen frischen Desktop-Screenshot von [`streunerhilfe-plau.de`](https://streunerhilfe-plau.de/) erstellen oder den vorhandenen Screenshot prüfen.
+- Screenshot als `assets/img/streunerhilfe-plau-screenshot.png` speichern.
 - In der Referenzkarte statt des Foto-Platzhalters verwenden.
 - Bildtext und `alt` nicht generisch halten, sondern konkret: "Screenshot der Website der Streunerhilfe Plau e. V."
 - Herkunft dokumentieren: eigener Screenshot der öffentlich erreichbaren Vereinswebsite, Datum, URL.
@@ -144,7 +144,7 @@ Falls später doch echter serverseitiger Versand gewünscht ist:
 
 1. Marke im Header/Footer/Meta ändern, weil das sofort sichtbar falsch ist.
 2. Impressum und Datenschutz anlegen, weil Pages sonst unfertig wirkt.
-3. Bilder und Lizenznachweise einbauen, inklusive Teamfotos und Streunerhilfe-Screenshot.
+3. Bilder und Lizenznachweise einbauen, inklusive Teamfotos und [Streunerhilfe](https://streunerhilfe-plau.de/)-Screenshot.
 4. Formular auf statischen Mailto-Entwurf umstellen.
 5. Manuelle Sichtprüfung per lokal geöffneter `index.html`, danach Live-Pages prüfen, sobald DNS/HTTPS sauber durch ist.
 
