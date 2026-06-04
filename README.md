@@ -10,7 +10,7 @@ Die Seite basiert auf der Standalone-Datei aus `C:/Downloads/Tierschutz Website-
 - `assets/css/styles.css` - Layout, Farben, lokale Font-Faces
 - `assets/js/main.js` - vorbereiteter Mailto-Entwurf für Bewerbungen und Reveal-Animationen
 - `assets/fonts/` - lokal entpackte Webfonts
-- `assets/img/` - echte Fotos, Screenshot und Bildnachweise
+- `assets/img/` - echte Fotos, Logo und Bildnachweise
 - `impressum/`, `datenschutz/` - Rechtstexte für die Live-Seite
 - `server/smtp-endpoint/` - optionaler, aktuell nicht genutzter PHP/PHPMailer-Endpunkt für späteren SMTP-Versand
 - `docs/` - Projektnotizen, Quelle und Deployment-Hinweise

@@ -23,14 +23,14 @@ Benötigte Motive:
 - Hero: emotionales, aber nicht kitschiges Tierschutzmotiv, idealerweise gerettete Katze oder Pflegestelle.
 - Team: Porträt Jan-Erik aus `jan-erik-andersen.de/portrait.webp`.
 - Team: Porträt Annemarie aus `annemarie-andersen.de/portrait-480.webp` bzw. passender vorhandener Größe.
-- Streunerhilfe-Case-Study: Screenshot der echten Seite [`streunerhilfe-plau.de`](https://streunerhilfe-plau.de/), passend in die Case-Study-Karte eingebaut.
-- Optional: ein zweites freies Motiv für Kastration, Auffangstation oder Tierschutzarbeit, falls die Seite mit nur Hero + Team + Screenshot zu trocken wirkt.
+- Streunerhilfe-Case-Study: offizielles Logo von [`streunerhilfe-plau.de`](https://streunerhilfe-plau.de/), passend in die Case-Study-Karte eingebaut.
+- Optional: ein zweites freies Motiv für Kastration, Auffangstation oder Tierschutzarbeit, falls die Seite mit nur Hero + Team + Logo zu trocken wirkt.
 
 Akzeptanz:
 
 - Keine Bildplatzhalter mehr sichtbar.
 - Jedes Bild hat `alt`, sinnvollen Zuschnitt, lokale Datei und Lizenz-/Herkunftsnachweis.
-- Bilddateien sind klein genug für Pages: Ziel grob unter 250 KB pro sichtbarem Bild, Hero/Screenshot bei Bedarf etwas größer.
+- Bilddateien sind klein genug für Pages: Ziel grob unter 250 KB pro sichtbarem Bild, Hero bei Bedarf etwas größer.
 
 ## 2. Marke im Header, Footer und Meta-Daten
 
@@ -85,22 +85,22 @@ Akzeptanz:
 - Footer verlinkt beide Seiten.
 - Datenschutz beschreibt nicht versehentlich Technik von Wa(h)re Haustier(liebe), die hier nicht existiert.
 
-## 4. [Streunerhilfe](https://streunerhilfe-plau.de/)-Case-Study mit echtem Screenshot
+## 4. [Streunerhilfe](https://streunerhilfe-plau.de/)-Case-Study mit offiziellem Logo
 
-Aktueller Stand: Die Case Study nutzt einen frischen Screenshot der Live-Seite.
+Aktueller Stand: Die Case Study nutzt das offizielle Logo der Streunerhilfe Plau.
 
 Umsetzung:
 
-- Einen frischen Desktop-Screenshot von [`streunerhilfe-plau.de`](https://streunerhilfe-plau.de/) erstellen oder den vorhandenen Screenshot prüfen.
-- Screenshot als `assets/img/streunerhilfe-plau-screenshot.png` speichern.
+- Das offizielle Logo von [`streunerhilfe-plau.de`](https://streunerhilfe-plau.de/) verwenden.
+- Logo als `assets/img/streunerhilfe-plau-logo.png` speichern.
 - In der Referenzkarte statt des Foto-Platzhalters verwenden.
-- Bildtext und `alt` nicht generisch halten, sondern konkret: "Screenshot der Website der Streunerhilfe Plau e. V."
-- Herkunft dokumentieren: eigener Screenshot der öffentlich erreichbaren Vereinswebsite, Datum, URL.
+- Bildtext und `alt` nicht generisch halten, sondern konkret: "Logo der Streunerhilfe Plau e. V."
+- Herkunft dokumentieren: offizielle Logodatei der Vereinswebsite mit URL.
 
 Akzeptanz:
 
-- Die Case Study zeigt sichtbar die echte Website, nicht ein Symbolfoto.
-- Screenshot ist lesbar genug, ohne die Karte zu überladen.
+- Die Case Study zeigt sichtbar das echte Vereinslogo, nicht ein Symbolfoto.
+- Das Logo ist klar erkennbar, ohne die Karte zu überladen.
 
 ## 5. Formular als Mail-Entwurf öffnen
 
@@ -144,7 +144,7 @@ Falls später doch echter serverseitiger Versand gewünscht ist:
 
 1. Marke im Header/Footer/Meta ändern, weil das sofort sichtbar falsch ist.
 2. Impressum und Datenschutz anlegen, weil Pages sonst unfertig wirkt.
-3. Bilder und Lizenznachweise einbauen, inklusive Teamfotos und [Streunerhilfe](https://streunerhilfe-plau.de/)-Screenshot.
+3. Bilder und Lizenznachweise einbauen, inklusive Teamfotos und [Streunerhilfe](https://streunerhilfe-plau.de/)-Logo.
 4. Formular auf statischen Mailto-Entwurf umstellen.
 5. Manuelle Sichtprüfung per lokal geöffneter `index.html`, danach Live-Pages prüfen, sobald DNS/HTTPS sauber durch ist.
 

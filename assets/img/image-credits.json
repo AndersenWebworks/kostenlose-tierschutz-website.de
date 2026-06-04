@@ -45,18 +45,18 @@
     "modifications": "Lokale Kopie; im Layout rund beschnitten."
   },
   {
-    "id": "streunerhilfe-plau-screenshot",
-    "localPath": "assets/img/streunerhilfe-plau-screenshot.png",
-    "fileTitle": "Screenshot streunerhilfe-plau.de",
+    "id": "streunerhilfe-plau-logo",
+    "localPath": "assets/img/streunerhilfe-plau-logo.png",
+    "fileTitle": "Logo Streunerhilfe Plau e. V.",
     "sourceUrl": "https://streunerhilfe-plau.de/",
-    "originalUrl": "https://streunerhilfe-plau.de/",
-    "author": "Andersen Webworks / Streunerhilfe Plau e. V.",
-    "license": "Eigener Screenshot der öffentlich erreichbaren Vereinswebsite",
+    "originalUrl": "https://streunerhilfe-plau.de/wp-content/uploads/logo.png",
+    "author": "Streunerhilfe Plau e. V.",
+    "license": "Offizielles Vereinslogo, Nutzung im direkten Referenzkontext",
     "licenseUrl": "",
     "usedFor": [
       "case-study-streunerhilfe"
     ],
-    "alt": "Screenshot der Website der Streunerhilfe Plau e. V.",
-    "modifications": "Desktop-Browser-Screenshot der Startseite mit 1440 x 1830 px; Cookie-Overlay vor der Aufnahme ausgeblendet; im Layout per CSS beschnitten."
+    "alt": "Logo der Streunerhilfe Plau e. V.",
+    "modifications": "Offizielle PNG-Datei lokal übernommen; im Layout per CSS proportional eingepasst."
   }
 ]

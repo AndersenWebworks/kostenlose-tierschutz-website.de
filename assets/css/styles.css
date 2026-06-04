@@ -565,8 +565,10 @@ a:hover { color: var(--primary-dark); }
   background: var(--white); border-radius: var(--radius-lg); padding: 0; box-shadow: var(--shadow-lg);
   border: 1px solid var(--border); overflow: hidden; display: grid; grid-template-columns: 0.8fr 1.2fr;
 }
-.reference-image-link { display: block; width: 100%; height: 100%; overflow: hidden; }
+.reference-photo { background: linear-gradient(145deg, #ffffff, #F2F8F3); }
+.reference-image-link { display: flex; width: 100%; height: 100%; overflow: hidden; align-items: center; justify-content: center; padding: 2.4rem; }
 .reference-photo .ph, .reference-image { width: 100%; height: 100%; min-height: 380px; object-position: top center; }
+.reference-logo { object-fit: contain; min-height: 0; max-width: 320px; max-height: 330px; height: auto; }
 .reference-header a { color: var(--text); }
 .reference-header a:hover { color: var(--primary-dark); }
 blockquote.testimonial cite a { color: var(--text-muted); text-decoration: underline; text-underline-offset: 2px; }
