@@ -1,20 +1,5 @@
 [
   {
-    "id": "feral-cat-tnr",
-    "localPath": "assets/img/feral-cat-tnr.jpg",
-    "fileTitle": "Feral cat, sterilized through a Trap-Neuter-Return program.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Feral_cat,_sterilized_through_a_Trap-Neuter-Return_program.jpg",
-    "originalUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Feral_cat,_sterilized_through_a_Trap-Neuter-Return_program.jpg",
-    "author": "FelineAvenger",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "usedFor": [
-      "hero"
-    ],
-    "alt": "Streunerkatze mit markiertem Ohr nach einer Kastration",
-    "modifications": "Lokale Kopie aus dem Projekt wahre-haustierliebe.de; im Layout per CSS beschnitten."
-  },
-  {
     "id": "jan-erik-andersen-portrait",
     "localPath": "assets/img/jan-erik-andersen-portrait.webp",
     "fileTitle": "Jan-Erik Andersen Portrait",
@@ -54,6 +39,7 @@
     "license": "Offizielles Vereinslogo, Nutzung im direkten Referenzkontext",
     "licenseUrl": "",
     "usedFor": [
+      "hero",
       "case-study-streunerhilfe"
     ],
     "alt": "Logo der Streunerhilfe Plau e. V.",

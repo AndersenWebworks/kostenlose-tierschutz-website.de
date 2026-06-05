@@ -28,7 +28,7 @@ const setStatus = (message, isError = false) => {
 const buildApplicationMailto = data => {
   const subject = encodeURIComponent('Bewerbung um die Website-Spende: ' + data.organisation);
   const body = encodeURIComponent(
-    'Hallo Jan-Erik, hallo Annemarie,\n\n' +
+    'Hallo Annemarie und Erik,\n\n' +
     'wir bewerben uns um die kostenlose Tierschutz-Website, weil wir unsere Tierschutzarbeit online besser sichtbar machen möchten.\n\n' +
     'Kurz zu uns\n' +
     '-----------\n' +

@@ -8,7 +8,7 @@ Umsetzungsstand 05.06.2026: Marke, Bilder, Bildnachweise, Impressum, Datenschutz
 
 ## 1. Bildkonzept und Lizenznachweise
 
-Aktueller Stand: In `index.html` sind noch Platzhalter wie "Foto: gerettete Katze / Pflegestelle", "Foto" und "Foto: Streunerkatze / Region Plau" verbaut. `assets/img/` existiert, ist aber noch leer.
+Aktueller Stand: In `index.html` sind keine Bildplatzhalter mehr sichtbar. Hero und Streunerhilfe-Case-Study nutzen das offizielle Logo der Streunerhilfe Plau; die Teamkarten nutzen lokale Porträts von Jan-Erik und Annemarie.
 
 Umsetzung:
 
@@ -20,7 +20,7 @@ Umsetzung:
 
 Benötigte Motive:
 
-- Hero: emotionales, aber nicht kitschiges Tierschutzmotiv, idealerweise gerettete Katze oder Pflegestelle.
+- Hero: offizielles Logo der Streunerhilfe Plau als Praxisbeispiel-Signal.
 - Team: Porträt Jan-Erik aus `jan-erik-andersen.de/portrait.webp`.
 - Team: Porträt Annemarie aus `annemarie-andersen.de/portrait-480.webp` bzw. passender vorhandener Größe.
 - Streunerhilfe-Case-Study: offizielles Logo von [`streunerhilfe-plau.de`](https://streunerhilfe-plau.de/), passend in die Case-Study-Karte eingebaut.
@@ -87,13 +87,13 @@ Akzeptanz:
 
 ## 4. [Streunerhilfe](https://streunerhilfe-plau.de/)-Case-Study mit offiziellem Logo
 
-Aktueller Stand: Die Case Study nutzt das offizielle Logo der Streunerhilfe Plau.
+Aktueller Stand: Die Case Study und der Hero nutzen das offizielle Logo der Streunerhilfe Plau.
 
 Umsetzung:
 
 - Das offizielle Logo von [`streunerhilfe-plau.de`](https://streunerhilfe-plau.de/) verwenden.
 - Logo als `assets/img/streunerhilfe-plau-logo.png` speichern.
-- In der Referenzkarte statt des Foto-Platzhalters verwenden.
+- In der Referenzkarte und im Hero statt des Katzenfotos verwenden.
 - Bildtext und `alt` nicht generisch halten, sondern konkret: "Logo der Streunerhilfe Plau e. V."
 - Herkunft dokumentieren: offizielle Logodatei der Vereinswebsite mit URL.
 
