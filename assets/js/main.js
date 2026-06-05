@@ -1,5 +1,38 @@
 const form = document.getElementById('bewerbungsformular');
 const statusEl = document.getElementById('form-status');
+const navToggle = document.querySelector('.nav-toggle');
+const siteNav = document.getElementById('site-navigation');
+
+const setNavigationOpen = isOpen => {
+  if (!navToggle || !siteNav) return;
+  document.body.classList.toggle('nav-open', isOpen);
+  navToggle.setAttribute('aria-expanded', String(isOpen));
+  navToggle.querySelector('.sr-only').textContent = isOpen ? 'Navigation schließen' : 'Navigation öffnen';
+};
+
+if (navToggle && siteNav) {
+  navToggle.addEventListener('click', () => {
+    setNavigationOpen(!document.body.classList.contains('nav-open'));
+  });
+
+  siteNav.addEventListener('click', event => {
+    if (event.target.closest('a')) {
+      setNavigationOpen(false);
+    }
+  });
+
+  document.addEventListener('click', event => {
+    if (!document.body.classList.contains('nav-open')) return;
+    if (siteNav.contains(event.target) || navToggle.contains(event.target)) return;
+    setNavigationOpen(false);
+  });
+
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') {
+      setNavigationOpen(false);
+    }
+  });
+}
 
 const fieldValue = id => {
   const field = document.getElementById(id);

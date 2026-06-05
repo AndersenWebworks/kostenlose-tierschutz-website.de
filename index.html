@@ -24,11 +24,21 @@
 
 <header class="site-header">
   <div class="header-inner">
-    <div class="site-logo">
+    <a class="site-logo" href="./" aria-label="kostenlose-tierschutz-website.de Startseite">
       <svg class="paw" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="16" cy="22" rx="7" ry="5.5" fill="#3B7A57"></ellipse><ellipse cx="7.5" cy="14" rx="3.2" ry="4.2" fill="#3B7A57"></ellipse><ellipse cx="24.5" cy="14" rx="3.2" ry="4.2" fill="#3B7A57"></ellipse><ellipse cx="12" cy="8.5" rx="2.8" ry="3.6" fill="#3B7A57"></ellipse><ellipse cx="20" cy="8.5" rx="2.8" ry="3.6" fill="#3B7A57"></ellipse></svg>
       <span class="logo-text">kostenlose-<span class="logo-highlight">tierschutz-website.de</span></span>
-    </div>
-    <div class="header-badge">Website-Spende für Tierschutz</div>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">
+      <span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span class="sr-only">Navigation öffnen</span>
+    </button>
+    <nav class="site-nav" id="site-navigation" aria-label="Hauptnavigation">
+      <a href="#warum">Warum</a>
+      <a href="#ablauf">Ablauf</a>
+      <a href="#beispiel">Beispiel</a>
+      <a href="#fragen">FAQ</a>
+      <a class="nav-cta" href="#bewerbung">Bewerben</a>
+    </nav>
   </div>
 </header>
 
@@ -65,7 +75,7 @@
 </section>
 
 <!-- INTRO -->
-<section class="section section-white">
+<section class="section section-white" id="warum">
   <div class="container">
     <div class="intro-box reveal">
       <span class="label">Warum wir das machen</span>
@@ -153,7 +163,7 @@
 </section>
 
 <!-- REFERENCE -->
-<section class="section section-white">
+<section class="section section-white" id="beispiel">
   <div class="container">
     <div class="section-head text-center reveal">
       <span class="label center">Praxisbeispiel</span>
@@ -217,7 +227,7 @@
 </section>
 
 <!-- FAQ -->
-<section class="section section-white">
+<section class="section section-white" id="fragen">
   <div class="container">
     <div class="narrow">
       <div class="section-head text-center reveal">

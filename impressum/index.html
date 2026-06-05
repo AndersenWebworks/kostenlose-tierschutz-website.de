@@ -17,6 +17,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="stylesheet" href="../assets/css/styles.css">
+<script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
 <header class="site-header">
@@ -25,7 +26,17 @@
       <svg class="paw" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="16" cy="22" rx="7" ry="5.5" fill="#3B7A57"></ellipse><ellipse cx="7.5" cy="14" rx="3.2" ry="4.2" fill="#3B7A57"></ellipse><ellipse cx="24.5" cy="14" rx="3.2" ry="4.2" fill="#3B7A57"></ellipse><ellipse cx="12" cy="8.5" rx="2.8" ry="3.6" fill="#3B7A57"></ellipse><ellipse cx="20" cy="8.5" rx="2.8" ry="3.6" fill="#3B7A57"></ellipse></svg>
       <span class="logo-text">kostenlose-<span class="logo-highlight">tierschutz-website.de</span></span>
     </a>
-    <div class="header-badge">Website-Spende für Tierschutz</div>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">
+      <span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span class="sr-only">Navigation öffnen</span>
+    </button>
+    <nav class="site-nav" id="site-navigation" aria-label="Hauptnavigation">
+      <a href="../#warum">Warum</a>
+      <a href="../#ablauf">Ablauf</a>
+      <a href="../#beispiel">Beispiel</a>
+      <a href="../#fragen">FAQ</a>
+      <a class="nav-cta" href="../#bewerbung">Bewerben</a>
+    </nav>
   </div>
 </header>
 
@@ -102,5 +113,6 @@
     <p class="footer-fine">Mecklenburg-Vorpommern / Remote. Diese Seite ist kein kommerzielles Angebot – die Website-Spende erfolgt ehrenamtlich.</p>
   </div>
 </footer>
+<script src="../assets/js/main.js" defer></script>
 </body>
 </html>
