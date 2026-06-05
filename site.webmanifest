@@ -1,9 +1,26 @@
 {
   "name": "Kostenlose Website für Tierschutzvereine",
   "short_name": "Tierschutz Website",
+  "description": "Professionelle Website-Spende für kleine Tierschutzvereine und Tierrettungsinitiativen.",
+  "id": "/",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#FAF8F4",
   "theme_color": "#3B7A57",
-  "lang": "de"
+  "lang": "de",
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }

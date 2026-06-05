@@ -29,7 +29,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir _site
-          cp -R index.html assets impressum datenschutz robots.txt sitemap.xml site.webmanifest CNAME _site/
+          cp -R index.html assets impressum datenschutz robots.txt sitemap.xml site.webmanifest CNAME favicon.ico favicon.svg apple-touch-icon.png web-app-manifest-192x192.png web-app-manifest-512x512.png _site/
           touch _site/.nojekyll
 
       - name: Configure GitHub Pages

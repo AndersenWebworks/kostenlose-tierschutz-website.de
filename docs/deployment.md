@@ -13,6 +13,11 @@ Für den Live-Upload werden nur diese Dateien benötigt:
 - `robots.txt`
 - `sitemap.xml`
 - `site.webmanifest`
+- `favicon.ico`
+- `favicon.svg`
+- `apple-touch-icon.png`
+- `web-app-manifest-192x192.png`
+- `web-app-manifest-512x512.png`
 - `CNAME`
 
 Der Workflow `.github/workflows/deploy-pages.yml` kopiert genau diese Dateien nach `_site/` und veröffentlicht nur diesen statischen Ordner. Repo-Dateien wie `README.md`, `docs/`, `scripts/`, `server/` oder `package.json` werden dadurch nicht Teil der Live-Seite.
