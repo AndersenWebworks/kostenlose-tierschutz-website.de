@@ -110,6 +110,9 @@
     .animal-lead > p { margin: 0; color: var(--soft); }
     .animal-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; margin-top: 44px; background: var(--line); border: 1px solid var(--line); }
     .animal-card { padding: 33px; background: var(--paper); }
+    .animal-photo { display: block; width: calc(100% + 66px); height: 270px; margin: -33px -33px 28px; object-fit: cover; }
+    .animal-photo.murron { object-position: center 64%; }
+    .animal-photo.njuvra { object-position: center; }
     .animal-card h3 { color: var(--forest); font-size: 31px; }
     .animal-card p { margin: 14px 0 0; color: var(--soft); }
     .animal-card .tag { display: inline-block; margin-bottom: 15px; color: var(--moss); font-size: 13px; font-weight: 900; letter-spacing: .07em; text-transform: uppercase; }
@@ -265,8 +268,8 @@
           <p>Hinter jedem Rolli, jedem Rutschsack und jedem besonderen Handgriff steht ein Tier mit eigener Vergangenheit, eigenem Charakter und einem festen Platz im Leben.</p>
         </div>
         <div class="animal-grid">
-          <article class="animal-card"><span class="tag">Seit 2015 auf dem Hof</span><h3>Njuvra</h3><p>Der älteste Lebenshofbewohner kam als junger Kater aus Kroatien. Nach einem Unfall als Kitten blieb sein Hinterbein verdreht. Seit Oktober 2015 lebt er bei Lara.</p></article>
-          <article class="animal-card"><span class="tag">Seit 2017 auf dem Hof</span><h3>Murron</h3><p>Als erste querschnittsgelähmte Katze wurde sie auf einer Mülldeponie gefunden. Murron liebt Abenteuer mit dem Hunderudel und ist die Oberbossin des Vereins.</p></article>
+          <article class="animal-card"><img class="animal-photo njuvra" src="assets/img/sonnenhof/njuvra-portraet.jpg" alt="Njuvra, ein weiß-schwarzer Kater, sitzt aufmerksam auf einem Regal."><span class="tag">Seit 2015 auf dem Hof</span><h3>Njuvra</h3><p>Der älteste Lebenshofbewohner kam als junger Kater aus Kroatien. Nach einem Unfall als Kitten blieb sein Hinterbein verdreht. Seit Oktober 2015 lebt er bei Lara.</p></article>
+          <article class="animal-card"><img class="animal-photo murron" src="assets/img/sonnenhof/murron-am-meer.jpg" alt="Murron, eine schwarz-weiße Katze im Rollstuhl, steht am Strand vor einer Bergkulisse."><span class="tag">Seit 2017 auf dem Hof</span><h3>Murron</h3><p>Als erste querschnittsgelähmte Katze wurde sie auf einer Mülldeponie gefunden. Murron liebt Abenteuer mit dem Hunderudel und Urlaube. Sie ist die Oberbossin des Vereins.</p></article>
           <article class="animal-card"><span class="tag">Hofalltag</span><h3>Hunde im Rollstuhl</h3><p>Ein passender Rollstuhl kann Bewegung, Selbstständigkeit und Freude zurückbringen. Jeder Einsatz, jede Anpassung und jede Pflege braucht Zeit und Mittel.</p></article>
           <article class="animal-card"><span class="tag">Gemeinsam getragen</span><h3>Viele kleine Handgriffe</h3><p>Ehrenamtliche Helferinnen und Helfer unterstützen praktisch. Patinnen und Paten begleiten einzelne Tiere. Spenden finanzieren Pflege und medizinische Versorgung.</p></article>
         </div>
